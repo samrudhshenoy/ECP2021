@@ -158,6 +158,13 @@ p {
   width: 100%;
   height: 100%; }
 
+.center {
+  display: block;
+  margin-left: 30%;
+  margin-right: 70%;
+  width: 40%;
+}
+
 /*===== Text Fields Style =====*/
 
 .Wrapper {
@@ -1170,13 +1177,13 @@ p {
 
 .project_active .slick-arrow {
   position: absolute;
-  bottom: -80px;
+  bottom: -100px;
   right: 50%;
   z-index: 9;
   margin: 0 15px;
   cursor: pointer; }
   .project_active .slick-arrow i {
-    font-size: 18px;
+    font-size: 25px;
     color: #646F87;
     line-height: 24px;
     -webkit-transition: all 0.3s ease-out 0s;
