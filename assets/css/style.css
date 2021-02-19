@@ -881,7 +881,7 @@ p {
   background-position: bottom center;
   background-color: #F9F9F9;
   overflow: hidden;
-  padding-top: 70px; }
+  padding-top: 100px;}
 
 .header_social {
   position: absolute;
@@ -926,7 +926,7 @@ p {
   right: 0;
   width: 50%;
   height: 100%;
-  z-index: -1; }
+  z-index: -1;}
   .header_hero_shape::before {
     position: absolute;
     content: '';
@@ -974,7 +974,7 @@ p {
   margin-top: 30px; }
 
 .header_hero_image img {
-  width: 100%; }
+  min-width: 650px; }
 
 /*===========================
         03.ABOUT css
@@ -982,7 +982,7 @@ p {
 .about_image {
   position: relative; }
   .about_image img {
-    width: 100%; }
+    width: 75%; }
   .about_image .about_shape {
     width: 404px;
     height: 525px;
