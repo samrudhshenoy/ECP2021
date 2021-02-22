@@ -332,6 +332,26 @@ p {
     .section_title .line li:nth-of-type(3) {
       width: 7px; }
 
+.section_title .about_line {
+  padding-top: 10px;
+  margin-left: -200px; }
+  .section_title .about_line li {
+    display: inline-block;
+    background-color: #00A78E;
+    border-radius: 50px;
+    height: 3px; }
+    .section_title .about_line li:nth-of-type(1) {
+      width: 64px; }
+    .section_title .about_line li:nth-of-type(2) {
+      width: 10px; }
+    .section_title .about_line li:nth-of-type(3) {
+      width: 7px; }
+
+.section_p {
+  line-height: 200%;
+  color: #525252
+}
+
 /*===== All Preloader Style =====*/
 .preloader {
   /* Body Overlay */
@@ -980,57 +1000,21 @@ p {
         03.ABOUT css
 ===========================*/
 .about_image {
-  position: relative; }
+  position: relative;
+  margin-left: -130px;}
   .about_image img {
-    width: 75%; }
-  .about_image .about_shape {
-    width: 404px;
-    height: 525px;
-    border-left: 15px solid #00A78E;
-    border-bottom: 15px solid #00A78E;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1; }
-    @media (max-width: 767px) {
-      .about_image .about_shape {
-        width: 100%;
-        height: 380px; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .about_image .about_shape {
-        width: 404px;
-        height: 525px; } }
-    .about_image .about_shape::before {
-      position: absolute;
-      content: '';
-      width: 15px;
-      height: 85%;
-      background-color: #00A78E;
-      bottom: 0;
-      right: 0; }
-    .about_image .about_shape::after {
-      position: absolute;
-      content: '';
-      width: 104%;
-      height: 15px;
-      background-color: #00A78E;
-      top: 36px;
-      right: -2px;
-      -webkit-transform: rotate(11deg);
-      -moz-transform: rotate(11deg);
-      -ms-transform: rotate(11deg);
-      -o-transform: rotate(11deg);
-      transform: rotate(11deg);
-      border-top-left-radius: 20px; }
-      @media (max-width: 767px) {
-        .about_image .about_shape::after {
-          top: 27px; } }
-      @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .about_image .about_shape::after {
-          top: 37px; } }
+    width: 55%; }
 
 .about_content p {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: -200px;
+  margin-right: -120px;}
+.about_content h5 {
+  margin-top: 10px;
+  margin-left: -200px; }
+.about_content h3 {
+  margin-top: 10px;
+  margin-left: -200px; }
 
 .skill_item .skill_header {
   position: relative; }
