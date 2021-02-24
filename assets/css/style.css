@@ -985,7 +985,9 @@ p {
   margin-top: 30px; }
 
 .header_hero_image img {
-  min-width: 650px; }
+  min-width: 100px;
+  max-height: 800px;
+  margin-left: 120px;}
 
 /*===========================
         03.ABOUT css
